@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles1.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#connect">Connect</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div id="welcomeContainer">
+            <h1 id="welcomeMessage">Welcome to my website!</h1>
+        <button id="greetButton">Enter your name</button>
+        <script src="/js/pesan.js"></script>
+    </div>
+</div>
+    <section id="about">
+        <div class="container">
+            <h3>About Me</h3>
+            <p>Selamat datang di portofolio saya! saya, M. Aziz Maulana lulusan baru di universitas islam negeri maulana malik ibrahim malang.
+                saya tertarik di dunia design grafis dan front end web developer, dan saat ini saya sedang belajar itu. Saya asli dari surabaya
+            </p>
+        </div>
+        <section id="banner">
+            <div class="container">
+                <div class="banner-slides">
+                    <div class="slide active">
+                        <img src="/gambar/banner1" alt="Banner 1">
+                    </div>
+                    <div class="slide">
+                        <img src="/gambar/banner2" alt="Banner 2">
+                    </div>
+                    <div class="slide">
+                        <img src="/gambar/banner3" alt="Banner 3">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div>
+            <div class="project">
+                <h2>Projects</h2>
+                <h3>Project 1</h3>
+                <p>Portofolio1.</p>
+                <img src="/gambar/Gambar1.jpg" alt="Project 1 Image">
+            </div>
+            <div class="project">
+                <h3>Portofolio2</h3>
+                <p>Description of Project 2.</p>
+                <img src="/gambar/Gambar2.jpg" alt="Project 2 Image">
+            </div>
+            <!-- Add more projects as needed -->
+            <div class="project">
+                <h3>Portofolio3</h3>
+                <p>Description of Project 2.</p>
+                <img src="/gambar/Gambar3.jpg" alt="Project 3 Image">
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="contact">
+        <div class="container contact-container">
+            <div class="contact-form">
+                <h3>Contact</h3>
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="contact-output">
+                <h3>Pesan</h3>
+                <textarea id="output" readonly></textarea>
+            </div>
+        </div>
+    </section>
+    <section id="connect">
+        <div class="container">
+            <h2>Connect</h2>
+            <a href="https://www.instagram.com/aziz.maulana164?igsh=MTMxaGtsdm9meG43bw==">Instagram </a>
+            <p></p>
+            <a href="https://www.linkedin.com/in/m-aziz-maulana-5b42382a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 M. Aziz Maulana.</p>
+        </div>
+    </footer>
+
+         <script src="/js/pesan.js">   
+  
+    </script>
+    
+</body>
+</html>
